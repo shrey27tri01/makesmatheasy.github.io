@@ -157,7 +157,11 @@ $(document).ready(function () {
         closenav();
         clearall();
     });
-    
+    $("#intrbtn").click(function () {
+        openit("#intrcal");
+        closenav();
+        clearall();
+    });
     //Function of collapsing binary/decimal section on click
     $("#decimal-to-binary-btn").click(function(){
         openit("#decimal-binary");
@@ -165,7 +169,19 @@ $(document).ready(function () {
         clearall();
     });
 
+    //Function of collapsing bitwise calculator section on click
+    $("#bitwise-calc-btn").click(function(){
+        openit("#bitwise-calc");
+        closenav();
+        clearall();
+    });
 
+//Function of collapsing binary/octal section on click
+    $("#octal-to-binary-btn").click(function(){
+        openit("#octal-binary");
+        closenav();
+        clearall();
+    });
 
 });
 
